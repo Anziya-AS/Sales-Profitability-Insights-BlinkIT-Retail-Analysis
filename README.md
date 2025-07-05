@@ -41,7 +41,7 @@ The dataset includes product type, outlet size, city tier, sales, and profit dat
 ---
 ## 📄 Project Files
 
-- 📊 [Blinkit Grocery Dashboard (PDF)](BlinkIT Dashboard.pdf)  
+- 📊 https://github.com/Anziya-AS/Sales-Profitability-Insights-BlinkIT-Retail-Analysis/raw/main/BlinkIT%20Dashboard.pdf 
 - 📂 [Power BI File (.pbix)](Blinkit_Grocery_Dashboard.pbix)
 
 ---
