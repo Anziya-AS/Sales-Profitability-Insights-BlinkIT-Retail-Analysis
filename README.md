@@ -62,4 +62,22 @@ Profit Margin = DIVIDE([Total Profit], [Total Sales])
 
 -- Average Sales per Outlet
 Average Sales = AVERAGE('Sales Data'[Sales])
+---
+
+## 📂 Project Structure
+BlinkIT-Grocery-Dashboard/
+├── Blinkit_Grocery_Dashboard.pbix
+├── Blinkit_Grocery_Dashboard.pdf
+├── BlinkIT_Dashboard.png
+├── README.md
+
+---
+
+## 👩‍💻 Created By
+
+**Anziya A S**  
+📍 Kerala, India  
+💼 Data Analyst  
+📫 anziyaanzarr90@gmail.com  
+🌐 [GitHub Profile](https://github.com/Anziya-AS)
 
