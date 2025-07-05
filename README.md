@@ -1,4 +1,4 @@
-# 🛒Sales-Profitability-Insights-BlinkIT-Retail-Analysis
+# 🛒Sales Profitability Insights BlinkIT Retail Analysis
 
 This Power BI dashboard analyzes sales and profit performance across various item types, outlet types, and city tiers using data from a BlinkIT grocery chain.
 
@@ -13,11 +13,14 @@ This Power BI dashboard analyzes sales and profit performance across various ite
 - Profit margin falls **below expected** target of 50%.
 - Outlet Age and Type significantly affect revenue distribution.
 
-## 📁 Dataset
+## 📊 Dataset
 
-Dataset used: `BlinkIT_Sales.csv` (simulated retail dataset)
+This dashboard uses a grocery retail dataset containing sales, profit, store type, outlet size, and product categories from Blinkit.
 
-📎 *Due to size, dataset is not uploaded to GitHub. Available upon request.*
+📄 [Click here to view the dataset (Google Sheets)](https://docs.google.com/spreadsheets/d/1zMoqDjJc9LD9g__K_7FchFot3f-sH-HU/edit?usp=sharing)
+
+*The dataset is shared via Google Sheets for easy access.*
+
 
 ## 🛠 Tools Used
 
