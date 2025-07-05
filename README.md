@@ -48,21 +48,6 @@ The dataset includes product type, outlet size, city tier, sales, and profit dat
 
 ---
 
-## 🧠 Key DAX Measures
-
-```DAX
--- Total Sales
-Total Sales = SUM('Sales Data'[Sales])
-
--- Total Profit
-Total Profit = SUM('Sales Data'[Profit])
-
--- Profit Margin
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
-
--- Average Sales per Outlet
-Average Sales = AVERAGE('Sales Data'[Sales])
----
 
 ## 📂 Project Structure
 BlinkIT-Grocery-Dashboard/
