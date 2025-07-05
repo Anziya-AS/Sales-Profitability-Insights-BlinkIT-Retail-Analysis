@@ -1,34 +1,63 @@
-# 🛒Sales Profitability Insights BlinkIT Retail Analysis
+# 🛒 Blinkit Grocery Sales & Outlet Performance Dashboard
 
-This Power BI dashboard analyzes sales and profit performance across various item types, outlet types, and city tiers using data from a BlinkIT grocery chain.
+A Power BI dashboard analyzing Blinkit's grocery sales, profit margins, product categories, and store performance across various city tiers and outlet types.
 
-## 📊 Dashboard Preview
+---
 
-![BlinkIT Grocery Dashboard](BlinkIT_Dashboard.png)
+## 📌 Project Objective
 
-## 📌 Key Insights
+To uncover sales patterns, profitability trends, and category performance across different store types, outlet sizes, and regions. The dashboard provides a comprehensive view of how Blinkit’s retail operations perform.
 
-- High total sales from **Supermarket Type1** and **Tier 1** locations.
-- Item categories like **Baking Goods** and **Breakfast** lead in sales.
-- Profit margin falls **below expected** target of 50%.
-- Outlet Age and Type significantly affect revenue distribution.
+---
+
+## 🛠 Tools & Technologies
+
+- **Power BI** – Dashboard development & DAX  
+- **Power Query** – Data cleaning & transformation  
+- **Excel / Google Sheets** – Data source  
+- **DAX** – KPI calculations  
+
+---
 
 ## 📊 Dataset
 
-This dashboard uses a grocery retail dataset containing sales, profit, store type, outlet size, and product categories from Blinkit.
+The dataset includes product type, outlet size, city tier, sales, and profit data.
 
 📄 [Click here to view the dataset (Google Sheets)](https://docs.google.com/spreadsheets/d/1zMoqDjJc9LD9g__K_7FchFot3f-sH-HU/edit?usp=sharing)
 
-*The dataset is shared via Google Sheets for easy access.*
+---
+## 📊 Key Insights
 
+🏪 Supermarket Type1 stores dominate in total sales across Tier 1 cities
 
-## 🛠 Tools Used
+🍞 Categories like Baking Goods and Breakfast lead in revenue
 
-- Power BI (DAX, Slicers, Cards, Custom Visuals)
-- Data Cleaning in Power Query
-- CSV Source Data
+💸 Profit margins are below the ideal 50% target
 
-## 👩‍💻 Created By
+🏙️ Older outlets in Tier 2 cities show stable sales despite small size
 
-Anziya A S  
-📧 anziyaanzarr90@gmail.com
+📈 Dashboard reveals profit gaps between outlet types and city tiers
+
+---
+## 📄 Project Files
+
+- 📊 [Blinkit Grocery Dashboard (PDF)](BlinkIT Dashboard.pdf)  
+- 📂 [Power BI File (.pbix)](Blinkit_Grocery_Dashboard.pbix)
+
+---
+
+## 🧠 Key DAX Measures
+
+```DAX
+-- Total Sales
+Total Sales = SUM('Sales Data'[Sales])
+
+-- Total Profit
+Total Profit = SUM('Sales Data'[Profit])
+
+-- Profit Margin
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+-- Average Sales per Outlet
+Average Sales = AVERAGE('Sales Data'[Sales])
+
